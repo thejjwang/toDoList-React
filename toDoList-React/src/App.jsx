@@ -7,7 +7,7 @@ const App = () => {
 
   const handleAddTodo = (newTodo) => {
     setTodos([...todos, newTodo]);
-  };
+  }; 
 
   return (
     <div>
